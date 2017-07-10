@@ -1,0 +1,28 @@
+body {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%; /* Generally set the font-size to 100% in the body - you can then change with em in the other areas */
+    line-height: 1.7em; /* The line-height property in CSS controls the space between lines of text. It is often set in a unitless value (e.g. line-height: 1.4; ) */
+    color: #000000;
+    font-weight: 200;
+}
+
+#homenav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#homenav li {
+    display: inline;
+    
+}
+#homenav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+}
+#homenav a:hover {
+    color: red;
+}
+
